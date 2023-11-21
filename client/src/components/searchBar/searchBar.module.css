@@ -1,0 +1,27 @@
+
+.searchConten {
+  display: block;
+  margin-inline-start: 0;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  block-size: 3rem;
+  inline-size: 22rem;
+ }
+.searchInp {
+  inline-size: 11.25rem;
+  block-size: 1.9rem;
+  border: 1px solid #2b03ae;
+  border-radius: 7px 0px 0px 7px;
+  box-shadow: inset 0 0 10px #2b03ae;
+  outline: none;
+  padding-left: 0.8rem;
+}
+.searchBtn {
+  inline-size: 4.5rem;
+  block-size: 1.8rem;
+  border: 1px dashed #2b03ae;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+

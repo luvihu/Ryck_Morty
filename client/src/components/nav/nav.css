@@ -1,0 +1,71 @@
+.navConten {
+  display: flex;
+  block-size: 5rem;
+  inline-size: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-block-end: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+}
+.navRandom {
+  block-size: 3rem;
+  inline-size: 25rem;
+  margin-inline-start: -7rem;
+  margin-block-start: 1.5rem;
+  }
+
+.navRandom button {
+ inline-size: 4.5rem;
+  block-size: 2.7rem;
+  margin-block-start: -1rem;
+  border: 1px solid #2b03ae;
+  background-color: #98d25e;
+  font-size: 16.5px;
+  font-weight: 500;
+  border-radius: 0.5rem; 
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navRandom button:active {
+  transform: scale(1.1); 
+  font-size: 20px;
+ }
+ .navRandom button:hover {
+  background-color: #dcf471;
+}
+ 
+.navLink {
+  display: flex;
+  block-size: 4.5rem;
+  inline-size: 30rem;
+  justify-content: space-around;
+  align-items: center;
+   
+}
+
+.navLink button {
+  inline-size: 6.2rem;
+  block-size: 2rem;
+  border: 1px solid #2b03ae;
+  background-color: #98d25e;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.5rem; 
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navLink button:active {
+  transform: scale(1.1); 
+  font-size: 20px;
+}
+
+.navLink button:hover {
+  background-color: #dcf471;
+}

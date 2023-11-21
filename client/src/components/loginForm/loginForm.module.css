@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: 'Merienda';
+  src: url("../../fuentes/Merienda-Bold.ttf");
+  font-style: bold;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Merienda';
+  src: url("../../fuentes/Merienda-ExtraBold.ttf");
+  font-style: bold;
+  font-weight: 800;
+}
+
+
+.fContenGlob {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-block-end: 0;
+   block-size: 100vh;
+ }
+
+.fConten {
+  display: flex;
+  z-index: 1;
+  block-size: 21rem;
+  inline-size: 40rem;
+  border: 0.5px dashed #f9fafc;
+  padding: 2rem;
+  color: #f9fafc;
+  margin-block-end: 0;
+   
+}
+.fConten img{
+  inline-size: 15rem;
+  block-size: 15rem;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  margin-block-start: 0.5rem;
+}
+
+
+.fTitle {
+  font-family: 'Merienda', cursive;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #baaa2f;
+   
+}
+.fTitle h1 {
+  margin-block-start: 1rem;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  }
+
+.credentials label {
+  font-family: 'Merienda';
+  font-weight: bold;
+}
+
+.credentials input {
+  background-color: #eaba6c;
+  border: 2px solid #f9fafc;
+  border-radius: 5px;
+  border: none;
+  margin: 1.5rem;
+  block-size: 1.5rem;
+  inline-size: 13.5rem;
+  }
+.credentials input:focus {
+  outline: none;
+}
+
+.credentials span {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.subBtn {
+  border-radius: 5px;
+  border: solid 1px #373337;
+  background: rgb(12, 12, 12);
+  color: #f9fafc;
+  inline-size: 9rem;
+  block-size: 2.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'merienda';
+  margin-inline-start: 4.5rem;
+  
+}
+
+.subBtn:hover {
+  box-shadow: inset 0 0 8px #39ff14;
+    font-size: 1.4rem;
+}
+
+.subBtn:active {
+  transform: scale(0.95);
+}
